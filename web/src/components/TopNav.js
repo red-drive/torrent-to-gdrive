@@ -11,7 +11,7 @@ export default function TopNav({ nav }) {
               <i className="h2 m-0 d-flex align-items-center">
                 <ion-icon name="search-outline" />
               </i>
-              <span className="tablet-desktop-only ml-05">Search</span>
+              <span className="tablet-desktop-only ml-05">Search from 1337x,Limetorrent...</span>
             </Link>
           </li>
           <li className={`cursor-pointer p-0 ph-1 height-100 d-flex align-items-center${nav === "downloads" ? " border-bottom-1" : ""}`}>
@@ -19,7 +19,7 @@ export default function TopNav({ nav }) {
               <i className="h2 m-0 d-flex align-items-center">
                 <ion-icon name="download-outline" />
               </i>
-              <span className="tablet-desktop-only ml-05">Downloads</span>
+              <span className="tablet-desktop-only ml-05">Leeching Page</span>
             </Link>
           </li>
           <li className={`cursor-pointer p-0 ph-1 height-100 d-flex align-items-center${nav === "drive" ? " border-bottom-1" : ""}`}>
@@ -27,7 +27,7 @@ export default function TopNav({ nav }) {
               <i className="h2 m-0 d-flex align-items-center">
                 <ion-icon name="push-outline" />
               </i>
-              <span className="tablet-desktop-only ml-05">Drive</span>
+              <span className="tablet-desktop-only ml-05">Index Page</span>
             </Link>
           </li>
         </ul>
