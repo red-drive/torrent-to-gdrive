@@ -33,7 +33,7 @@ if (site && token) {
   console.log("Bot ready");
 }
 
-router.get("/download", (req, res) => {
+router.get("/leech", (req, res) => {
   const link = req.query.link;
 
   if (!link) {
