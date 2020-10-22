@@ -34,7 +34,7 @@ function DownloadItem({ torrent }) {
           <div>{torrent.status}</div>
         </div>
         <div className="d-flex space-between">
-          <div className="text-400">Size: </div>
+          <div className="text-400">File Size: </div>
           <div>{torrent.total}</div>
         </div>
         <div className="d-flex space-between">

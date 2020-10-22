@@ -32,24 +32,24 @@ function Downloads() {
 
   return (
     <>
-      <h1>Downloads</h1>
+      <h1>Leech to GDrive</h1>
 
       <form onSubmit={add}>
         <Input
           id="link"
           name="link"
-          label="Magnet Link"
-          placeholder="magnet:?xt=urn:btih:08ada5a7a6183aae1e09d831df6748d566095a10"
+          label="Paste You Magnet Link in Box under this text"
+          placeholder="Paste You Magnet link here which is like magnet:?xt=urn:dfsd... "
           value={link}
           onChange={setLink}
           required
         />
         {addingError !== "" && <div className="text-danger">{addingError}</div>}
         <button disabled={adding} className={`btn primary${adding ? " loading" : ""}`} type="submit">
-          Add
+          Leech
         </button>
       </form>
-      {error && <div className="text-danger mt-1">An error occured. Check your internet.</div>}
+      {error && <div className="text-danger mt-1">This link is slow!!. Please use another link.</div>}
       {data && (
         <div className="d-flex-column mt-1">
           {data.torrents.map(torrent => (
