@@ -32,7 +32,9 @@ function Downloads() {
 
   return (
     <>
-      <h1>Leech to GDrive</h1>
+      <h1>Mirror2Drive</h1>
+
+      <a href="https://telegram.dog/Bot_Gram_Developers">Join Our Telegram Channel</a>
 
       <form onSubmit={add}>
         <Input

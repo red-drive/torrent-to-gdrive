@@ -11,7 +11,7 @@ export default function TopNav({ nav }) {
           <li className={`cursor-pointer p-0 ph-1 height-100 d-flex align-items-center${nav === "downloads" ? " border-bottom-1" : ""}`}>
             <Link to="/download" className="height-100 d-flex align-items-center">
               <i className="h2 m-0 d-flex align-items-center">
-                <ion-icon name="md-magnet" />
+                <ion-icon name="magnet" />
               </i>
               <span className="tablet-desktop-only ml-05">Leeching Page</span>
             </Link>
