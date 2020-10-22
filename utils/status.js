@@ -1,6 +1,7 @@
 const diskinfo = require("./diskinfo");
 const humanTime = require("../utils/humanTime");
 const prettyBytes = require("./prettyBytes");
+const { text } = require("body-parser");
 
 async function status(path = "/app") {
   let info = "";
@@ -19,6 +20,7 @@ async function status(path = "/app") {
     info += `Heap Used: ${prettyBytes(memory.heapUsed)} \n`;
     info += `Memory Rss: ${prettyBytes(memory.rss)} \n`;
     info += `Uptime: ${humanTime(process.uptime() * 1000)} \n`;
+    info += text.bold('Dont put your nasty nose in others business\n');
 
     return info;
   } catch (e) {
