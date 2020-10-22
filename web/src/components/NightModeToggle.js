@@ -21,7 +21,7 @@ export default function NightModeToggle() {
   return (
     <button className="btn mv-auto sm neutral" onClick={() => setNightMode(!nightMode)}>
       <span className="bnt-icon">
-        <ion-icon name="moon" />
+        <ion-icon name="cloudy-nigh" />
       </span>
     </button>
   );
